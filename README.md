@@ -12,8 +12,8 @@ Utilizar este repositorio como espacio de aprendizaje y seguimiento de las activ
 
 | Unidad               | Tema                                                  |
 | -------------------- | ----------------------------------------------------- |
-| [Unidad 0](unidad0/) | Estándares y buenas prácticas de codificación - PEP 8 |
-| [Unidad 1](unidad1/) | Estructuras de datos                                  |
+| [Unidad 0](Unidad0/) | Estándares y buenas prácticas de codificación - PEP 8 |
+| [Unidad 1](Unidad1/) | Estructuras de datos                                  |
 
 ---
 
