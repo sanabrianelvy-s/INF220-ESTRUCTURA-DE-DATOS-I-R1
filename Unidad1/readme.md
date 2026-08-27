@@ -1,7 +1,5 @@
 Modelos de Representación de Datos
 
-Resumen ejecutivo de los conceptos clave del Tema 1 para la materia Estructura de Datos 1.
-
 1. ¿Qué es un Dato?
 
 Es cualquier valor mínimo que se guarda en la memoria para ser procesado por un programa (ej. un número, un nombre o una nota). 
