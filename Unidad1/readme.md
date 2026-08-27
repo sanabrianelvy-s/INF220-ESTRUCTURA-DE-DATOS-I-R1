@@ -12,8 +12,8 @@ Es la descripción de una estructura desde afuera (lo que ve el usuario). Define
 
 3. Datos Estáticos (Memoria Fija)
 
-Estructuras con un tamaño definido desde el inicio que no puede cambiar durante la ejecución.
-Ventaja: Acceso instantáneo a cualquier posición mediante índices (Eficiencia O(1)).
+Estructuras con un tamaño definido desde el inicio que no puede cambiar durante la ejecución.  
+Ventaja: Acceso instantáneo a cualquier posición mediante índices (Eficiencia O(1)).  
 Desventaja: Si se llena e intentas meter más datos, el programa colapsa con un error de desorbdamiento (OverflowError).
 
 4. Datos Dinámicos (Memoria Flexible)
