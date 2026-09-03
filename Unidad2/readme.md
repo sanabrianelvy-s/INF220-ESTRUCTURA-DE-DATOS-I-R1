@@ -6,7 +6,7 @@ Diseñar e implementar estructuras de datos lineales avanzadas para representar 
 ---
 
 ## 🧮 1. ADT Polinomio
-Un polinomio es una expresión de la forma $P(x) = a_nx^n + ... + a_1x + a_0$. En computación, su representación se evalúa bajo dos enfoques de ingeniería:
+Un polinomio es una expresión de la forma: P(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀
 
 ### 💾 Modelos de Representación en Memoria
 
@@ -33,8 +33,4 @@ Un conjunto es una colección de elementos **sin orden establecido** y **sin dup
 *   `diferencia_simetrica(B)` A △ B: Elementos en $A$ o en $B$, pero no en ambos.
 *   `contiene(x)` x ∈ A: Verificación de membresía del elemento.
 
-### 🛠️ Estrategias de Implementación
-*   **Set de Python:** Estructura nativa basada en tablas Hash de alta velocidad.
-*   **BitVector:** Representación binaria compacta para conjuntos de enteros pequeños.
-*   **Lista Ordenada:** Implementación manual con algoritmos de combinación en tiempo $O(n)$.
 
