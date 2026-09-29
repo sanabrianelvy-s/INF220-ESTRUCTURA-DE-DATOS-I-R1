@@ -14,9 +14,9 @@ Es una secuencia de nodos donde cada uno contiene el dato almacenado y un único
 
 | Operación | Complejidad | Descripción Técnica |
 | :--- | :--- | :--- |
-| `insertar_inicio(dato)` | **O(1) Constante** ⚡ | Modificación inmediata del puntero de la cabeza, independiente del tamaño de la lista. |
-| `insertar_final(dato)` | **O(n) Lineal** 🐌 | Requiere un recorrido secuencial obligatorio desde el inicio hasta hallar el nodo apuntando a `None`. |
-| `eliminar_inicio()` | **O(1) Constante** ⚡ | Desengancha el primer elemento reasignando la cabeza al nodo siguiente en un solo paso. |
-| `vaciar()` | **O(1) Constante** ⚡ | Rompe el enlace principal (`_cabeza = None`), permitiendo que el Garbage Collector libere el Heap. |
+| `insertar_inicio(dato)` | **O(1) Constante**  | Modificación inmediata del puntero de la cabeza, independiente del tamaño de la lista. |
+| `insertar_final(dato)` | **O(n) Lineal**  | Requiere un recorrido secuencial obligatorio desde el inicio hasta hallar el nodo apuntando a `None`. |
+| `eliminar_inicio()` | **O(1) Constante**  | Desengancha el primer elemento reasignando la cabeza al nodo siguiente en un solo paso. |
+| `vaciar()` | **O(1) Constante**  | Rompe el enlace principal (`_cabeza = None`), permitiendo que el Garbage Collector libere el Heap. |
 
 
