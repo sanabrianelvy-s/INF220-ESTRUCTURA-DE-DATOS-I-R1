@@ -58,14 +58,27 @@ class ListaModelo:
         self._tamanio = 0
 
     def obtener_cadena_texto(self) -> str:
-        """Convierte los enlaces en una cadena visual para la pantalla."""
+        """
+        Convierte los elementos de la lista en una cadena corrida
+        separada únicamente por comas, sin flechas ni corchetes.
+        
+        Returns:
+            Un String corrido y limpio, ej: "Ana, Luis, Pedro".
+        """
+        if self._cabeza is None:
+            return "Lista Vacía"
+            
         elementos: list[str] = []
         actual = self._cabeza
+        
         while actual is not None:
-            elementos.append(f"[{actual.dato}]")
+            # Guardamos el dato como texto puro
+            elementos.append(str(actual.dato))
             actual = actual.siguiente
-        elementos.append("None")
-        return " → ".join(elementos)
+            
+        # Unimos los elementos con una coma y un espacio
+        return " ".join(elementos)
+
 
     def __len__(self) -> int:
         return self._tamanio
